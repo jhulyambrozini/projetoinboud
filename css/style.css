@@ -32,12 +32,12 @@ main.conteiner {
     text-align: center;
 }
 
-header {
-    background: #ffff;
+header { 
     display: block;
-    float: left;
-    border-bottom: #ff5757 1px solid;
     width: 100vw;
+    border-bottom: #ff5757 2px solid;
+    float: left;
+    background-color: white;
 }
 
 #grafico-02 img {
@@ -201,10 +201,9 @@ footer small {
     background-size: cover;
 }
 
-.legenda-container {
+.container-legenda {
     float: left;
-    margin: 10vw 10vw 0 0;
-    width: 30vw;
+    margin: 3vw 10vw 0 0;
 }
 
 .legenda {
@@ -213,9 +212,8 @@ footer small {
     border-radius: 5px;
     width: auto;
     display: inline-block;
-    padding-top: 1px;
-    line-height: .2px;
-    margin-bottom: 2rem;
+    padding-top: 15px;
+    line-height: 1.8rem;
 }
 
 h4 {
@@ -227,7 +225,8 @@ h4 {
 h5 {
     font-size: 1.6rem;
     color: #ff5757;
-    font-family: 'Cormorant Garamond', serif;  
+    font-family: 'Cormorant Garamond', serif;
+    padding-bottom: 15px;
 }
 
 .container {
@@ -246,10 +245,10 @@ h5 {
     display: inline-block;
     background-color: brown;
     color: #efefef;
-    font-size: 1.8rem;
-    padding: 20px 50px 20px 50px;
+    font-size: 1.6rem;
+    padding: 10px 50px 10px 50px;
     width: auto;
-    border-radius: 10px;
+    border-radius: 15px;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -257,11 +256,7 @@ h5 {
 .paragrafo p {
     text-align: justify;
     padding-left: 0;
-    line-height: 1.8rem;
-}
-
-#cta {
-
+    line-height: 2rem;
 }
 
 .duvidas {
@@ -282,6 +277,7 @@ dt {
 dd {
     margin-left: 20px;
     margin-bottom: 15px;
+    padding-top: 10px;
 }
 
 .duvidas a {
@@ -444,6 +440,51 @@ dd {
     footer p {
         text-align: center;
         font-size: 1.2rem;
+    }
+
+    #banner {
+        background-image: url(../imagens/banner-sm1.jpg);
+    }
+
+    .duvidas {
+      padding-right: 20px;
+    }
+
+    .a-container {
+        padding-right: 20px;
+    }
+    
+    dd {
+    
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+        text-align: justify;
+    }
+
+    h4 {
+        font-size: 1.8rem;
+    }
+    
+    h5 {
+        font-size: 1.6rem;
+        padding-bottom: 10px;
+    }
+
+    .container-legenda {
+        margin: 0;
+    }
+    
+
+    .paragrafo p {
+        font-size: 1.4rem;
+    }
+
+    .buttom-cta {
+        font-size: 1.4rem;
+    }
+
+    .legenda {
+        padding: 10px;
     }
     
 }
