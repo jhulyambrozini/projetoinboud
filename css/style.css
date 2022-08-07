@@ -54,6 +54,7 @@ h1 {
     font-size: 2.4rem;
     color: #ff5757;
     font-family: 'Cormorant Garamond', serif;
+    margin-top: 10px;
     margin-bottom: 5px;
 }
 
@@ -73,15 +74,26 @@ h3 {
     margin-bottom: 5px;
 }
 
-article p, article ul li {
-    margin-bottom: 10px;
+article ul li {
+    margin-bottom: 15px;
     line-height: 2rem;
     color: black;
     text-align: justify;
+    padding-right: 20px;
+}
+
+article p {
+    margin-bottom: 15px;
+    padding-right: 15px;
+    line-height: 2.5rem;
+    color: black;
+    text-align: justify;
+    padding-bottom: 15px;
 }
 
 ul {
     padding-left: 20px;
+    padding-bottom: 15px;
 }
 
 ul li {
@@ -148,7 +160,6 @@ div#direita {
 
 .bloco {
     float: left;
-    padding-top: 20px;
     padding-right: 30px;
 }
 
@@ -170,8 +181,8 @@ html .cog-cognito, :root:root:root:root:root .cog-cognito  {
 
 #tenho-interesse {
     background-color: #ffdcdc;
-    padding-left: 50px;
     padding-bottom: 20px;
+    padding-left: 50px;
 }   
 
 footer {
@@ -256,7 +267,7 @@ h5 {
 .paragrafo p {
     text-align: justify;
     padding-left: 0;
-    line-height: 2rem;
+    line-height: 3rem;
 }
 
 .duvidas {
@@ -278,6 +289,12 @@ dd {
     margin-left: 20px;
     margin-bottom: 15px;
     padding-top: 10px;
+    line-height: 3rem;
+}
+
+.titulo {
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
 
 .duvidas a {
@@ -291,13 +308,19 @@ dd {
     text-decoration: none;
     text-transform: uppercase;
 }
+
+.form {
+    justify-content: center;
+    display: flex;
+}
+
 /*desktop*/
 @media (max-width: 1440px) {
     section nav, section article, div#esquerda, div#direita {
         width: 100vw;
         height: auto;
     }
-
+        
     html {
         overflow-x: hidden;
     }
@@ -334,7 +357,11 @@ dd {
     }
 
     #tenho-interesse {
-        padding-left: 150px;
+        padding-left: 50px;
+    }
+
+    h1, h2, h3 {
+        margin-bottom: 10px;
     }
 }
 
@@ -382,6 +409,18 @@ dd {
 
     #tenho-interesse {
         padding-left: 50px;
+    }
+
+    article p, article ul li {
+        padding-right: 0;
+    }
+
+    .paragrafo p {
+        margin-bottom: 5px;
+    }
+
+    h1, h2, h3 {
+        margin-bottom: 10px;
     }
 }
 
